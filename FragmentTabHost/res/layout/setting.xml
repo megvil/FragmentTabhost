@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/setting_bg"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+     android:background="@drawable/normal_bg" >
+
+    <RelativeLayout
+        android:id="@+id/title_setting"
+        style="@style/title_Layout_style"
+        android:background="@drawable/theme_01_header_bg" >
+
+        <TextView
+            android:id="@+id/setting_title_bar"
+            style="@style/title_text_style"
+            android:text="设置" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/setting_list"
+        style="@style/list_content_style"
+        android:layout_below="@id/title_setting"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/setting_list_version"
+            style="@style/list_text_style"
+            android:text="版本升级" />
+
+        <ImageView
+            style="@style/list_spiner_style"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/setting_list_about"
+            style="@style/list_text_style"
+            android:text="关于" />
+
+        <ImageView
+            style="@style/list_spiner_style"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/setting_list_help"
+            style="@style/list_text_style"
+            android:text="帮助" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/setting_exit"
+        style="@style/font_size_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/setting_list"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_long"
+        android:text="安全退出" />
+
+</RelativeLayout>
