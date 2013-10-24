@@ -21,7 +21,11 @@ import cn.andye.fragmenttabhost.fra.Home1Fra;
 import cn.andye.fragmenttabhost.fra.Home2Fra;
 import cn.andye.fragmenttabhost.fra.Home3Fra;
 import cn.andye.fragmenttabhost.fra.SettingFra;
-
+/**
+ * fragment µÄÇÐ»»Àà
+ * @author andye
+ *
+ */
 public class MainActivity extends FragmentActivity implements OnClickListener {
 
 	private ImageView mBt1, mBt2, mBt3, mBt4;
