@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import cn.andye.fragmenttabhost.R;
 
 /**
- * Ê×Ò³
+ * home1
  * 
  * @author andye
  * 

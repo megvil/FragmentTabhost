@@ -19,7 +19,7 @@ public class Home3Fra extends Fragment implements OnClickListener {
 			Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.index_3, null);
 
-		init(v);// ≥ı ºªØ
+		init(v);
 
 		return v;
 	}
