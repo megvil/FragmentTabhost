@@ -131,7 +131,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
     }
 
     /**
-     * ÇĞ»»fragement
+     * åˆ‡æ¢fragement
      */
     private void changePerson() {
         Fragment f = new Home1Fra();
@@ -143,7 +143,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
     }
 
     /**
-     * ÇĞ»»fragement
+     * åˆ‡æ¢fragement
      */
     public void changeBussiness() {
         Fragment f = new Home2Fra();
@@ -155,7 +155,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
     }
 
     /**
-     * ÇĞ»»fragement
+     * åˆ‡æ¢fragement
      */
     public void changeMessage() {
         Fragment f = new Home3Fra();
@@ -167,7 +167,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
     }
 
     /**
-     * ÇĞ»»fragement
+     * åˆ‡æ¢fragement
      */
     public void changeSetting() {
         Fragment f = new SettingFra();
@@ -183,11 +183,10 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {
-
         if (keyCode == KeyEvent.KEYCODE_BACK) {
             if (isQuit == false) {
                 isQuit = true;
-                Toast.makeText(getBaseContext(), "ÔÙ´Îµã»÷È·¶¨ÍË³öÈí¼ş", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getBaseContext(), "å†æ¬¡ç‚¹å‡»ç¡®å®šé€€å‡ºè½¯ä»¶", Toast.LENGTH_SHORT).show();
                 TimerTask task = null;
                 task = new TimerTask() {
                     @Override
@@ -199,7 +198,6 @@ public class MainActivity extends FragmentActivity implements OnClickListener {
             } else {
                 finish();
             }
-        } else {
         }
         return false;
     }
