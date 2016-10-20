@@ -34,9 +34,8 @@ public class Home1Fra extends Fragment implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-		// case R.id.person2_shopping: // °´Å¥²Ù×÷
+		// case R.id.person2_shopping: // Â°Â´Ã…Â¥Â²Ã™Ã—Ã·
 		// break;
-
 		default:
 			break;
 		}
